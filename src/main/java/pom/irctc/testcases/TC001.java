@@ -21,6 +21,7 @@ public class TC001 extends ProjectWrappers {
 
 	public void irctcRegistration() {
 		
+		// TC001
 		new CovidAlertPage(driver,test)
 		.clickOnOk()
 		.clickOnRegister()
